@@ -9,7 +9,7 @@
  * Licensed under MIT license.
  */
 
-namespace Ahc\Cli\Test\Helper;
+namespace Ahc\Cli\Test\IO;
 
 use Ahc\Cli\Input\Reader;
 use Ahc\Cli\IO\Interactor;
