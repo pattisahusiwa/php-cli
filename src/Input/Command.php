@@ -61,6 +61,9 @@ class Command extends Parser
     /** @var bool If the last seen arg was variadic */
     private $_argVariadic = false;
 
+    /** @var int Verbosity level */
+    private $verbosity = 0;
+
     /**
      * Constructor.
      *

@@ -40,6 +40,9 @@ abstract class Parser
     /** @var array Parsed values indexed by option name */
     private $_values = [];
 
+    /** @var int Application version */
+    private $_version = 0;
+
     /**
      * Parse the argv input.
      *

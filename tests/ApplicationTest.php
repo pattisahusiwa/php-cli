@@ -21,6 +21,9 @@ class ApplicationTest extends TestCase
     protected static $in = __DIR__ . '/input';
     protected static $ou = __DIR__ . '/output';
 
+    /** @var bool */
+    private $actionCalled;
+
     public function setUp()
     {
         file_put_contents(static::$in, '');
